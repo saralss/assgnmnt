@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top_bar {
+    background-color: black;
+    color: white;
+    padding: 9px 0px;
+  }
+  
+  .container {
+    width: 85%;
+    margin: auto;
+  }
+  
+  .top_bar .container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  
+  .top_bar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .top_bar i {
+    font-size: 14px;
+  }
+  
+  .header_section .logo h2 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: 35px;
+  }
+  
+  .header_section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header_section ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header_section {
+    background-color: rgb(196, 195, 195);
+    color: black;
+    padding: 15px 0px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+      rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+      rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+      rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+      rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  }
+  
+  .header_section ul li {
+    padding: 5px 2px;
+    text-transform: uppercase;
+  }
+  
+  .header_section ul li:hover {
+    border-bottom: 4px solid rgb(9, 9, 9);
+    background-color: rgb(250, 249, 249);
+    cursor: pointer;
+  }
+  
+  .nav_link {
+    position: relative;
+  }
+  
+  .header_section .dropdown  {
+    background-color: rgb(6, 6, 6);
+    color: rgb(254, 253, 253);
+    display: none;
+    padding: 10px;
+    margin-left: -10px;
+    position: absolute;
+    width: 140px;
+    top: 25px;
+  
+  }
+  
+  .header_section .dropdown li {
+    font-size: 13px;
+  }
+  
+  .nav_link:hover .dropdown{
+      display: block;
+  }
+  
+  .header_section .dropdown li:hover{
+      background-color: rgb(152, 152, 152);
+      border-bottom: 4px solid wheat;
+  }
+  .hero_section{
+    background-color: blanchedalmond;
+    color: #fff;
+  }
+  .hero_section .overlay{
+    height: 600px;
+    width: 100px;
+    background: url("./image/960x0.webp") no-repeat;
+    background-position: center;
+    opacity: 0.4;
+  }
+  .hero_section_content{
+    position: absolute;
+    top: 0;
+  }
+  .hero_section_content p{
+    font-size: 18px;
+  }
+  .hero_section_content button{
+    border: none;
+    background-color: aliceblue;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+  .course_card{
+    width: 300px;
+  }
+Ankita
+Ankita Chhetri
+body {
+    background-color: bisque;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top_bar {
+    background-color: pink;
+    color: black;
+    padding: 9px;
+}
+
+.container {
+    width: 100%;
+
+    margin: auto;
+}
+
+.top_bar .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_bar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.top_bar {
+
+    font-size: 12px;
+    font-weight: 10px;
+}
+
+/* Header section starts */
+.header_section {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    /* box-shadow: rgba(50, 50, 105, 0.5) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.header_section .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_section ul {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+.header_section ul li {
+    padding: 5px 10px;
+    text-transform: uppercase;
+    /* background-color: red; */
+}
+
+.header_section ul li:hover {
+    background-color: black;
+    color: azure;
+    cursor: pointer;
+}
+
+.header_section .dropdown {
+    background-color: rgba(0, 217, 255, 0.803);
+    color: aliceblue;
+    display: none;
+    padding: 5px;
+    margin-left: -30px;
+    position: absolute;
+    width: 190px;
+    top: 72px;
+}
+
+.header_section .dropdown li {
+    font-size: 14px;
+}
+
+.nav_link:hover .dropdown {
+    display: block;
+    z-index: 1000;
+}
+
+.header_section .dropdown {
+    background-color: aqua;
+    color: aliceblue;
+    display: none;
+    padding: 5px;
+    margin-left: -30px;
+    position: absolute;
+    width: 190px;
+    top: 72px;
+
+}
+
+.nav_link:hover .dropdown {
+    display: block;
+}
+
+.hero_section {
+    background-color: rgb(60, 98, 98);
+    color: black;
+    position: relative;
+}
+
+.hero_section .overlay {
+    height: 600px;
+    width: 100%;
+    background: url("c:\Users\lenov\Desktop\Front end\css\project2\imagee\1000_F_348397404_wXuf22GUPNAh67htBZZnaDSx3Bj92yep.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+
+}
+
+.hero_section_content {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.hero_section_content {
+    font-size: 18px;
+    font-style: italic;
+    padding: 20px 0;
+}
+
+.hero_section_content button {
+    border: none;
+    background-color: aliceblue;
+    padding: 12px 25px;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.course_card {
+    width: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    
+}
+.course_card h4{
+    background-color: rgba(0, 255, 68, 0.24);
+    color: azure;
+    text-align: center;
+    padding: 15px 0;
+}
+.course_card p{
+    padding: 15px;
+}
+.course_card button{
+    border:none;
+    margin:5px 15pxc15px 15px;
+    padding: 50px 10px;
+    background-color: bisque
+    color:rgba(0, 0, 0, 0.05);
+    cursor:pointer;
+}
+.popular_course{
+padding: 20px;
+}
+.head{
+    text-align: center;
+    padding: 30px;
+}
+.head h2::before{
+    content: ;
+    width: 50px;
+    height: 4px;
+    background-color: aliceblue;
+    display:block;
+    margin:20px auto;
+}
+popular_course .course_card img{
+    width: 100%;
+  }
+  .popular_course .course_card h5{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+  }
+  .popular_course .course_card p{
+    font-style: italic;
+    margin-top: -20px;
+  }
